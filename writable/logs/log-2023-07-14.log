@@ -1,0 +1,75 @@
+WARNING - 2023-07-14 03:05:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH\Controllers\Home.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->testbd('1313165803')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-14 03:05:48 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in C:\xampp2\htdocs\ci4\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 C:\xampp2\htdocs\ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\xampp2\htdocs\ci4\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp2\htdocs\ci4\app\Controllers\Home.php(99): CodeIgniter\Database\BaseConnection->query('SELECT idperson...')
+#3 C:\xampp2\htdocs\ci4\system\CodeIgniter.php(934): App\Controllers\Home->testbd('1313165803')
+#4 C:\xampp2\htdocs\ci4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp2\htdocs\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp2\htdocs\ci4\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-07-14 03:05:48 --> Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\Home.php(99): CodeIgniter\Database\BaseConnection->query('SELECT idpersonal, cedula, apellido1, apellido2, nombres, genero 
+            FROM esq_datos_personales.personal where cedula=\'1313165803\'  ')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->testbd('1313165803')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-07-14 03:06:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH\Controllers\Home.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->testbd('0942376377')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-14 03:06:23 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in C:\xampp2\htdocs\ci4\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 C:\xampp2\htdocs\ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\xampp2\htdocs\ci4\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp2\htdocs\ci4\app\Controllers\Home.php(99): CodeIgniter\Database\BaseConnection->query('SELECT idperson...')
+#3 C:\xampp2\htdocs\ci4\system\CodeIgniter.php(934): App\Controllers\Home->testbd('0942376377')
+#4 C:\xampp2\htdocs\ci4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp2\htdocs\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp2\htdocs\ci4\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-07-14 03:06:23 --> Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\Home.php(99): CodeIgniter\Database\BaseConnection->query('SELECT idpersonal, cedula, apellido1, apellido2, nombres, genero 
+            FROM esq_datos_personales.personal where cedula=\'0942376377\'  ')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->testbd('0942376377')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-07-14 03:18:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH\Controllers\Home.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->testbd('1313165803')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-14 03:18:40 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in C:\xampp2\htdocs\ci4\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 C:\xampp2\htdocs\ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\xampp2\htdocs\ci4\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp2\htdocs\ci4\app\Controllers\Home.php(99): CodeIgniter\Database\BaseConnection->query('SELECT idperson...')
+#3 C:\xampp2\htdocs\ci4\system\CodeIgniter.php(934): App\Controllers\Home->testbd('1313165803')
+#4 C:\xampp2\htdocs\ci4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp2\htdocs\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp2\htdocs\ci4\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-07-14 03:18:40 --> Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\Home.php(99): CodeIgniter\Database\BaseConnection->query('SELECT idpersonal, cedula, apellido1, apellido2, nombres, genero 
+            FROM esq_datos_personales.personal where cedula=\'1313165803\'  ')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->testbd('1313165803')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
